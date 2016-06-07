@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<configuration date="2016/06/02" author="e.World Technology Ltd.">
+  <project id="{B1D96CD0-2849-4DC1-8F87-20EC273F9356}" file="C:\Users\mods\OneDrive\Documents\PHPMaker\Projects\nBOT.pmp" name="nBOT" product="PHPMaker" version="12.0" datetime="2016/06/02 11:42:15" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+    <table id="bot_SendMSG" name="bot_SendMSG" caption="Message" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_amphur" name="lov_amphur" caption="City" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_countries" name="lov_countries" caption="Countries" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_intStatus" name="lov_intStatus" caption="lov int Status" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_ProductStatus" name="lov_ProductStatus" caption="Warranty" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_province" name="lov_province" caption="Province" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_WHType" name="lov_WHType" caption="Wearhouse Type" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="main_Brand" name="main_Brand" caption="Brand" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="main_PartNum" name="main_PartNum" caption="Part Number" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="main_Product" name="main_Product" caption="Stock Card" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="main_Stock" name="main_Stock" caption="Wearhouse" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="main_User" name="main_User" caption="User" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="main_Vendor" name="main_Vendor" caption="Vendor" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="pending_Msg" name="pending_Msg" caption="pending Msg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="userlevelpermissions" name="userlevelpermissions" caption="Permission" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="userlevels" name="userlevels" caption="Level" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="transaction_Movement" name="transaction_Movement" caption="Movement" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="lov_Transaction" name="lov_Transaction" caption="lov Transaction" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="api_php" name="api.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="InternalUse" name="InternalUse" caption="Stock - Internal Use" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="StockCard" name="StockCard" caption="All Status" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+    <table id="inStock" name="inStock" caption="Stock - Sale" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+  </project>
+</configuration>
