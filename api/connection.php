@@ -89,13 +89,12 @@ function vToken($Token, $min = 30, $renew = FALSE, $window=0){
     
     $now = time();
     if(!$Expire) return 0;
-    $session = (($now - $Expire)/60/60);
-    if($session > $min){
+    $session = (($now - $Expire)/60);
+    if($session >= $min){
         //$reply = array('Token' => FALSE,'ID'=>'', 'Error'=>'Session Timeout!' );
         if($renew AND $session < $min + $window){
             $sql = "UPDATE session SET EXPIRE = datetime('now') WHERE TOKEN = '$Token'";
             $ret = $tAPI->query($sql);
-            print_r ($ret);
             if($ret) {
                 return ID;
             } else {
@@ -105,6 +104,10 @@ function vToken($Token, $min = 30, $renew = FALSE, $window=0){
             return 0;   
         }
    } else {
+       if($renew){
+            $sql = "UPDATE session SET EXPIRE = datetime('now') WHERE TOKEN = '$Token'";
+            $ret = $tAPI->query($sql);                
+       }
         return $ID;
    }
    $tAPI->close(); 

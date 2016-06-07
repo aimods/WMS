@@ -23,7 +23,7 @@ if ($_REQUEST['Token']){
         $header = json_response();
         $reply = array('Error Code' => 400, 'Detail' => "I have been waiting for you too long." );
     } else {
-
+        
         $User = vToken($TA);
         $PartNo = $_REQUEST['PartNo'];
         $SerialNo = $_REQUEST['SerialNo'];
@@ -41,10 +41,12 @@ if ($_REQUEST['Token']){
                 $reply = addPorduct($User, $PartNo, $SerialNo , $PO, $Cost, $Waranty, $TransactionType, $LocCode, $Activate);
                 break;
             case '1003': // Relocate Warehouse 
-                if (vToken($TA, 10, TRUE,10000) == 0){
+                if (vToken($TA, 30, TRUE, 120000) == 0){
                     $reply = array('Error Code' => 400, 'Detail'=>'Really sorry!, I cannot wait for you');
                 } else {
-                    $reply = array('Error Code' => 200, 'Detai'=>'OK' );
+                    echo "---";
+                    echo vToken($TA, 10, TRUE); 
+                    $reply = array('Error Code' => 200, 'Detai'=>'OK');
                 }
                 break;
             
